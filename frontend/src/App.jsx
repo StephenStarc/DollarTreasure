@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-<h1>Dollar Treasure</h1>
+<h2>Dollar Treasure</h2>
     </>
   )
 }
