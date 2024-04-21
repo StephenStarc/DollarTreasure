@@ -10,3 +10,10 @@
     font-weight: 600;
     padding-left: 0.rrem;
 }
+
+.product-title{
+    height:2.5em; /*Set a fixed height */
+    overflow:hidden;/*Hide Overflow Content*/
+    text-overflow: ellipsis;/*Add Ellipsis for long text */
+    white-space: nowrap; /*Prevent Wrapping */
+}
