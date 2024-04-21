@@ -1,3 +1,5 @@
+import { Container } from "react-bootstrap"
+import Header from "./components/Header"
 
 
 function App() {
@@ -5,7 +7,13 @@ function App() {
 
   return (
     <>
-<h2>Dollar Treasure</h2>
+    <Header />
+    <main className="py-3">
+      <Container>
+      <h2>Dollar Treasure</h2>
+      </Container>
+    </main>
+
     </>
   )
 }
